@@ -33,7 +33,6 @@ function peaShooterStartShooting(cell) {
             let hit_something = false;
 
             document.querySelectorAll('.enemy').forEach(zombie => {
-                console.log('cell row:', cellRow, 'zombie row:', zombie.dataset.row); // add this
                 if (hit_something) return;
                 if (zombie.dataset.row !== cellRow) return;
 
