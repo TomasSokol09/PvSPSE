@@ -114,7 +114,7 @@ function snowPeaShooterStartShooting(cell) {
         const rect = cell.getBoundingClientRect();
 
         const peaProjectile = document.createElement('img');
-        peaProjectile.src = 'snowPeaShooterProjectile.png';
+        peaProjectile.src = 'snowpeashooterprojectile.png';
         peaProjectile.style.position = 'fixed';
         peaProjectile.style.width = '3vw';
         peaProjectile.style.height = '3vw';
